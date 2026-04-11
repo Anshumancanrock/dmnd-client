@@ -69,12 +69,6 @@ pub mod tags {
 /// Maximum message size (1MB)
 pub const MAX_MESSAGE_SIZE: usize = 1024 * 1024;
 
-/// Default LRU cache size for deduplication
-pub const DEFAULT_LRU_SIZE: usize = 5000;
-
-/// Default timeout for network/relay operations (30 seconds)
-pub const DEFAULT_TIMEOUT_MS: u64 = 30_000;
-
 /// Default relay targets for discoverability publication (CEP-17).
 ///
 /// These are used as additional publication targets for server metadata,
